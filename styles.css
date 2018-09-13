@@ -1,8 +1,22 @@
+body {
+    background-color: rgb(52, 76, 212);
+    color: white
+}
+
+
 .navbar {
     background-color: rgb(37, 37, 37);
-    color: white 
+    color: white;
+    height: 20vh;
+    
 } 
 
-.nav-items li {
-list-style: none;
+.nav_items li {
+list-style: none; 
+display: inline-block; 
+float: right; 
+
+/* padding: 15px; */ 
+/* clock method: 15-starts at 12o clock, 17 is 3o clock, 20 is 6oclock and 18 is 9oclock */
+padding: 15px 17px 20px 18px; 
 }
